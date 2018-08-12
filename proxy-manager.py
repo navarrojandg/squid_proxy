@@ -6,7 +6,7 @@ import random
 import sys
 import time
 ###############################
-server = "45.79.179.115" # < Change it THERE 
+server = "45.79.197.241" # < Change it THERE 
 srvport = 3128
 #server = "213.59.184.32:8080" # Example 
 ###############################
