@@ -6,11 +6,11 @@ import random
 import sys
 import time
 ###############################
-server = "174.129.120.202" # < Change it THERE 
-srvport = 33128
+server = "45.79.179.115" # < Change it THERE 
+srvport = 3128
 #server = "213.59.184.32:8080" # Example 
 ###############################
-path = "/etc/squid3/users"
+path = "/etc/squid/passwd"
 export = "export.txt"
 
 def id_generator(size=6, chars=string.ascii_lowercase + string.digits):
@@ -49,8 +49,8 @@ while choise != 4:
             file = open (export, "w+")
             file.write("%s:%d:%s:%s\n" % (server, srvport,name, passwd))
             print("User added: %s:%d:%s:%s" % (server, srvport, name, passwd))
-            for i in range(number):
-                srvport=srvport+1
+            for i in range(number+1):
+                #srvport=srvport+1
                 name=id_generator(symbols)
                 passwd=id_generator(symbols)
                 task = ("htpasswd -b %s %s %s" % (path, name, passwd))
