@@ -1,3 +1,3 @@
-# data center
+# residential 
 
-This is the squid.conf file for datacenter proxies
+This is the squid.conf file for residential proxies
