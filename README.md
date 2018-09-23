@@ -1,3 +1,3 @@
-# squid_proxy
+# data center
 
-This is the base squid.conf file for a standard squid proxy server.
+This is the squid.conf file for datacenter proxies
