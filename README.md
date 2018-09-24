@@ -1,3 +1,3 @@
-# datacenter
+# proxy-manager
 
-This is the squid.conf file for datacenter proxies
+This script creates users/passwords for the squid proxies.
